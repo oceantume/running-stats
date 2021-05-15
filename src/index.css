@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  position: relative;
+  min-height: 100vh;
+}
+
+.app-footer {
+  height: 3rem; /* footer height */
+}
+
+.app-content-without-footer {
+  padding-bottom: 3rem; /* keep in sync with footer height above */
+}

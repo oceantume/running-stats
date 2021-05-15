@@ -1,0 +1,41 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+
+  background-color: #001a23;
+  color: #efefef;
+}
+
+.app-header h1 {
+  font-size: 1.25rem;
+  margin: unset;
+  color: #7da182;
+}
+
+.app-header nav {
+  display: flex;
+  align-items: center;
+}
+
+.app-header nav ul {
+  list-style: none;
+  display: flex;
+  margin: unset;
+  padding: unset;
+  padding-left: 10px;
+}
+
+.app-header a,
+.app-header a:visited {
+  padding: 0 5px;
+  text-decoration: none;
+  color: #c0c0c0;
+}
+
+.app-header a.active,
+.app-header a:active,
+.app-header a:hover {
+  color: unset;
+}
