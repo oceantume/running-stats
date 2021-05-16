@@ -12,7 +12,7 @@ jobs:
 
       - name: Install and Build 🔧
         env:
-          - PUBLIC_URL: '/running-stats'
+          PUBLIC_URL: '/running-stats'
         run: |
           yarn install
           yarn build
