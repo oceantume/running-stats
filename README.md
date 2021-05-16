@@ -2,6 +2,8 @@
 
 This is a simple web app that aims to provide a few experimental tools powered by a run tracker's API. [Strava](https://www.strava.com) is the only platform supported at the moment.
 
+https://oceantume.github.io/running-stats
+
 ## Strava API Access
 
 This app has no back-end of its own. Because of this, all users will need to [create their own API client on Strava](https://www.strava.com/settings/api). The client id and secret are then entered in the app so that the user can authorize the app on their account, allowing it to access the Strava API. These credentials and any data retrieved from Strava will only be stored in the browser using IndexedDB and will never be sent anywhere else.
