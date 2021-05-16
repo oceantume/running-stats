@@ -1,6 +1,7 @@
 {
-  "name": "strava-stats",
+  "name": "running-stats",
   "version": "0.1.0",
+  "private": "true",
   "license": "MIT",
   "dependencies": {
     "@mapbox/polyline": "^1.1.1",
