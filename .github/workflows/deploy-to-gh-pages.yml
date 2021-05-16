@@ -13,6 +13,7 @@ jobs:
       - name: Install and Build 🔧
         env:
           PUBLIC_URL: '/running-stats'
+          REACT_APP_MAPBOX_ACCESS_TOKEN: ${{ secrets.MAPBOX_ACCESS_TOKEN }}
         run: |
           yarn install
           yarn build
