@@ -35,7 +35,7 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,ts,tsx,css}": "prettier --write"
+    "*.{js,ts,tsx,css,md}": "prettier --write"
   },
   "eslintConfig": {
     "extends": [

@@ -27,10 +27,8 @@ export const ActivitiesList = () => {
       <ul>
         {activities?.map((activity) => (
           <li key={activity.id}>
-            <Link to={`/activities/${activity.id}`}>
-              {activity.name}
-            </Link>{' '}
-            ({Math.round(activity.distance / 1000)} km)
+            <Link to={`/activities/${activity.id}`}>{activity.name}</Link> (
+            {Math.round(activity.distance / 1000)} km)
           </li>
         ))}
       </ul>
